@@ -1,0 +1,103 @@
+/* day 1 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.landing-page {
+  background-image: url('dining.png'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+h1 {
+    color: brown;
+}
+p {
+    color: brown;
+}
+/* end of day 1 */
+
+/* day 2 */
+nav {
+    background-color: brown;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: yellow;
+}
+/* end of day 2 */
+
+/* day 3 */
+ul {
+    list-style: none;
+}
+img {
+	background-color: brown;
+    border-radius: 10px;
+}
+/* end of day 3 */
+
+/* day 4 */
+.product-container {
+    display: flex;
+    gap: 20px;
+}
+.text {
+    width: 50%;
+}
+
+.image {
+    width: 500px;
+}
+
+.image img {
+    width: 100%;
+}
+/* end of day 4 */
+
+/* day 5 */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* end of day 5 */
+
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap on small screens */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Adds space between items */
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+}
+
+.product-list li {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center text under image */
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 50%;
+    padding: 8px;
+    margin: 5px 0;
+}
